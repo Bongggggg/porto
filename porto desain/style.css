@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nama {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 50px;
+    align-content: center;
+}
+
+.navbar {
+    align-content: center;
+    align-items: center;
+}
+
+.kata {
+    text-decoration: none;
+    margin-left: 700px;
+    margin-top: -50px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.desain {
+    margin-left: 930px;
+    margin-top: -42px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact {
+    margin-left: 1100px;
+    margin-right: 50px;
+    margin-top: -44px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.garis {
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.kata-kata {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.garis2 {
+    background-color: black;
+    width: 30%;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.intro {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.gambar {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gambar2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.garis3 {
+    background-color: black;
+    width: 30%;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.fyi {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.kontak {
+    margin-top: 50px;
+}
+
+.nomor {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -2px;
+}
+
+.wa {
+    margin-left: 400px;
+}
+
+.ig {
+    margin-left: 550px;
+    margin-top: -118px;
+}
+
+.uname {
+    margin-top: -25px;
+    margin-left: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mail {
+    margin-left: 710px;
+    margin-top: -97px;
+}
+
+.gmail {
+    margin-top: -1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+@media (max-width: 450px) {
+    .navbar {
+        display: none;
+    }
+    .gambar {
+        margin-left: -10px;
+    }
+    .gambar2 {
+        margin-left: -5px;
+    }
+    .nama {
+        margin-left: 70px;
+    }
+    .kata-kata {
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 50px;
+        font-size: x-smal;
+        font-size: 10px;
+    }
+    .kontak {
+        margin-left: -300px;
+        display: flex;
+    }
+    .wa {
+        align-items: center;
+        align-content: center;
+        margin-top: -400px;
+    }
+    .ig {
+        align-items: center;
+        align-content: center;
+        margin-left: -147px;
+        margin-top: -100px;
+    }
+    .mail {
+        align-items: center;
+        align-content: center;
+        margin-left: -147px;
+        margin-top: 400px;
+    }
+    .fyi {
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 50px;
+        font-size: x-smal;
+        font-size: 7px;
+    }
+    .intro {
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 50px;
+        font-size: x-smal;
+        font-size: 10px;
+    }
+    .gambar {
+        align-items: center;
+        align-content: center;
+        margin-left: 30px;
+    }
+    .isra {
+        margin-left: 1px;
+    }
+    .garis2 {
+        margin-left: -30px;
+    }
+    .garis3 {
+        margin-left: -30px;
+    }
+}
